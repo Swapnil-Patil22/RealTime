@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<popups:PopupPage
+    xmlns:popups="http://rotorgames.com"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls1="clr-namespace:RealtimeMobile.CustomControls"
+    xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+    x:Class="RealtimeMobile.PopUps.CountryPopup"
+    >
+    <popups:PopupPage.Animation>
+        <popups:MoveAnimation
+            PositionIn="Bottom"
+            PositionOut="Bottom"
+            DurationIn="400"
+            DurationOut="300"
+            HasBackgroundAnimation="True"/>
+    </popups:PopupPage.Animation>
+
+    <StackLayout Spacing="8" BackgroundColor="White" Margin="0,50,0,0">
+        <StackLayout Orientation="Horizontal" 
+                         HorizontalOptions="FillAndExpand">
+            <Button Text="Cancel"
+                        TextColor="Black"
+                        BackgroundColor="Transparent"
+                        Clicked="CloseBtn_Clicked"
+                        HorizontalOptions="Start" />
+            <Label Text="Select your country"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       TextColor="Black"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"
+                       HeightRequest="60"
+                       HorizontalOptions="CenterAndExpand" />
+            <Button Text="Done" 
+                        BackgroundColor="Transparent"
+                        TextColor="Black"
+                        Clicked="ConfirmBtn_Clicked"
+                        HorizontalOptions="End" />
+        </StackLayout>
+        <ListView x:Name="CommonCountriesList"
+                      CachingStrategy="RetainElement"
+                      HasUnevenRows="True"
+                      SelectionMode="Single"
+                      SeparatorVisibility="None"
+                      ItemSelected="CommonCountriesList_OnItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <controls1:CountryControl Country="{Binding .}"  Margin="0,10"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</popups:PopupPage>

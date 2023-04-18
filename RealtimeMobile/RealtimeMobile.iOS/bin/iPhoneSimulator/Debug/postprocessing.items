@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="RealtimeMobile.iOS.app/RealtimeMobile.iOS">
+      <BCSymbolMapName>RealtimeMobile.iOS.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>RealtimeMobile.iOS.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list</SymbolFile>
+      <DSymName>RealtimeMobile.iOS.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile.iOS</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

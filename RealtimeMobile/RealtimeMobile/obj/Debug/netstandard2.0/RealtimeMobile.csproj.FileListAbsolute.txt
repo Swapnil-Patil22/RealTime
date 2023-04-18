@@ -1,0 +1,16 @@
+/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/bin/Debug/netstandard2.0/RealtimeMobile.deps.json
+/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/bin/Debug/netstandard2.0/RealtimeMobile.dll
+/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/bin/Debug/netstandard2.0/ref/RealtimeMobile.dll
+/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/bin/Debug/netstandard2.0/RealtimeMobile.pdb
+/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/obj/Debug/netstandard2.0/CustomControls/CountryControl.xaml.g.cs
+/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/obj/Debug/netstandard2.0/PopUps/CountryPopup.xaml.g.cs
+/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/obj/Debug/netstandard2.0/RealtimeMobile.AssemblyInfoInputs.cache
+/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/obj/Debug/netstandard2.0/RealtimeMobile.AssemblyInfo.cs
+/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/obj/Debug/netstandard2.0/RealtimeMobile.csproj.CoreCompileInputs.cache
+/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/obj/Debug/netstandard2.0/RealtimeMobile.dll
+/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/obj/Debug/netstandard2.0/ref/RealtimeMobile.dll
+/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/obj/Debug/netstandard2.0/RealtimeMobile.pdb
+/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/obj/Debug/netstandard2.0/RealtimeMobile.csproj.AssemblyReference.cache
