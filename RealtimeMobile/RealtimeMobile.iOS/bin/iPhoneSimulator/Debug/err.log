@@ -1,2 +1,12 @@
-objc[9205]: Class NSURLSessionDelegate is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/NetworkServiceProxy.framework/NetworkServiceProxy (0x7ff86437c4f8) and /Users/apple/Library/Developer/CoreSimulator/Devices/6FE6932A-76CD-47F0-895A-9C57036032E4/data/Containers/Bundle/Application/8E6B8332-3CA9-4D10-8DFA-8E68D74210EF/RealtimeMobile.iOS.app/RealtimeMobile.iOS (0x10a657c38). One of the two will be used. Which one is undefined.
+objc[1567]: Class NSURLSessionDelegate is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/NetworkServiceProxy.framework/NetworkServiceProxy (0x7ff86437c4f8) and /Users/apple/Library/Developer/CoreSimulator/Devices/6FE6932A-76CD-47F0-895A-9C57036032E4/data/Containers/Bundle/Application/2EA06579-0C59-4F69-B865-E8A0A50BAB40/RealtimeMobile.iOS.app/RealtimeMobile.iOS (0x10622dc38). One of the two will be used. Which one is undefined.
 MonoTouch: Could not install sigaction override, unexpected sigaction implementation.
+2023-04-24 11:02:28.855966+0530 RealtimeMobile.iOS[1567:30191] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=1567
+2023-04-24 11:02:28.856445+0530 RealtimeMobile.iOS[1567:30191] SecTaskCopyDebugDescription: RealtimeMobile.i[1567]/0#-1 LF=0
+2023-04-24 11:02:28.880055+0530 RealtimeMobile.iOS[1567:30191] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=1567
+2023-04-24 11:02:28.880543+0530 RealtimeMobile.iOS[1567:30191] SecTaskCopyDebugDescription: RealtimeMobile.i[1567]/0#-1 LF=0
+2023-04-24 11:02:28.909563+0530 RealtimeMobile.iOS[1567:30191] [SceneConfiguration] Info.plist contained no UIScene configuration dictionary (looking for configuration named "(no name)")
+2023-04-24 11:02:28.909757+0530 RealtimeMobile.iOS[1567:30191] [SceneConfiguration] Info.plist contained no UIScene configuration dictionary (looking for configuration named "(no name)")
+2023-04-24 11:02:29.059232+0530 RealtimeMobile.iOS[1567:30812] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=1567
+2023-04-24 11:02:29.059634+0530 RealtimeMobile.iOS[1567:30812] SecTaskCopyDebugDescription: RealtimeMobile.i[1567]/0#-1 LF=0
+2023-04-24 11:02:29.456661+0530 RealtimeMobile.iOS[1567:30816] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=1567
+2023-04-24 11:02:29.457280+0530 RealtimeMobile.iOS[1567:30816] SecTaskCopyDebugDescription: RealtimeMobile.i[1567]/0#-1 LF=0

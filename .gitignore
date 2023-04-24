@@ -22,6 +22,10 @@ build/
 *.ide/
 .vs/
 
+# Ignore any files in /bin and /obj Folders
+**/bin/*
+**/obj/*
+
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
