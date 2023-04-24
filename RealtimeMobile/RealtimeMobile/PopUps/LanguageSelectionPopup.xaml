@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<popups:PopupPage
+    xmlns:popups="http://rotorgames.com"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:translator="clr-namespace:RealtimeMobile.Helper"
+    x:Class="RealtimeMobile.PopUps.LanguageSelectionPopup"
+    >
+    <popups:PopupPage.Animation>
+        <popups:MoveAnimation
+            PositionIn="Bottom"
+            PositionOut="Bottom"
+            DurationIn="400"
+            DurationOut="300"
+            HasBackgroundAnimation="True"/>
+    </popups:PopupPage.Animation>
+    <StackLayout VerticalOptions="EndAndExpand"
+                 HorizontalOptions="FillAndExpand">
+        <Frame CornerRadius="22" HasShadow="False"
+               HorizontalOptions="FillAndExpand"
+               HeightRequest="120" Margin="0,0,0,-20">
+            <StackLayout Spacing="20" Margin="10,0">
+                <StackLayout Orientation="Horizontal">
+                    <RadioButton  BorderWidth="4" />
+                    <!--BorderColor="{StaticResource themeBlue}"-->
+                    <Label Text="{translator:Translate LanguageName}"
+                                   VerticalTextAlignment="Center"
+                                   FontSize="Body"
+                                   TextColor="Black"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <RadioButton BorderWidth="2" />
+                    <Label Text="{translator:Translate LanguageNameArabic}"
+                                   VerticalTextAlignment="Center"
+                                   FontSize="Body"
+                                   TextColor="Black"/>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</popups:PopupPage>

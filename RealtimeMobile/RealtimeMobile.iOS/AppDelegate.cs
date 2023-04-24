@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using FFImageLoading.Forms.Platform;
 using Foundation;
+using RealtimeMobile.iOS.Renderers;
 using UIKit;
 
 namespace RealtimeMobile.iOS
@@ -23,7 +24,10 @@ namespace RealtimeMobile.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             Rg.Plugins.Popup.Popup.Init();
+            FFImageLoading.Forms.Platform.CachedImageRenderer.Init();
             global::Xamarin.Forms.Forms.Init();
+            CachedImageRenderer.InitImageSourceHandler();
+            MaterialButtonRenderer.Initialize();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

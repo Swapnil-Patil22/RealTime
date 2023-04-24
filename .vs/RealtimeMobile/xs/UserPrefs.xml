@@ -1,35 +1,29 @@
 ﻿<Properties StartupConfiguration="{B25396AD-6785-47F2-B03A-D2179DF157A8}|Default">
   <MonoDevelop.Ide.ItemProperties.RealtimeMobile.Android PreferredExecutionTarget="Android.adb-M4AIGF003701ZMH-rOMdjC._adb-tls-connect._tcp." />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.adb-M4AIGF003701ZMH-rOMdjC._adb-tls-connect._tcp." />
-  <MonoDevelop.Ide.ItemProperties.RealtimeMobile.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6FE6932A-76CD-47F0-895A-9C57036032E4" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RealtimeMobile/RealtimeMobile/PopUps/CountryPopup.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RealtimeMobile/RealtimeMobile/PopUps/LanguageSelectionPopup.xaml">
     <Files>
-      <File FileName="RealtimeMobile/RealtimeMobile.iOS/Renderers/MaterialFrameRenderer.cs" />
-      <File FileName="RealtimeMobile/RealtimeMobile/MainPage.xaml" Line="52" Column="52" />
-      <File FileName="RealtimeMobile/RealtimeMobile/ViewModels/MainPageViewModel.cs" Line="34" Column="1" />
-      <File FileName="RealtimeMobile/RealtimeMobile/PopUps/CountryPopup.xaml.cs" Line="13" Column="47" />
-      <File FileName="RealtimeMobile/RealtimeMobile/PopUps/CountryPopup.xaml" Line="1" Column="1" />
-      <File FileName="RealtimeMobile/RealtimeMobile/CustomControls/CountryControl.xaml" Line="1" Column="1" />
-      <File FileName="RealtimeMobile/RealtimeMobile/CustomControls/CountryControl.xaml.cs" Line="1" Column="1" />
-      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/raw.githubusercontent.com/mono/mono/6dd9def57ce969ca04a0ecd9ef72c0a8f069112d/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs" Line="142" Column="73" />
+      <File FileName="RealtimeMobile/RealtimeMobile/Views/LoginRegisterPage.xaml" />
+      <File FileName="RealtimeMobile/RealtimeMobile/PopUps/LanguageSelectionPopup.xaml" Line="19" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RealtimeMobile" expanded="True">
             <Node name="RealtimeMobile" expanded="True">
-              <Node name="CustomControls" expanded="True">
-                <Node name="CountryControl.xaml" expanded="True" />
-              </Node>
               <Node name="PopUps" expanded="True">
-                <Node name="CountryPopup.xaml" expanded="True" selected="True" />
+                <Node name="LanguageSelectionPopup.xaml" expanded="True" />
               </Node>
-              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="LoginRegisterPage.xaml" expanded="True" />
+              </Node>
             </Node>
             <Node name="RealtimeMobile.Android" expanded="True">
-              <Node name="Renderers" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+                <Node name="mipmap-hdpi" expanded="True" />
+                <Node name="values" expanded="True" />
+              </Node>
             </Node>
             <Node name="RealtimeMobile.iOS" expanded="True">
               <Node name="Renderers" expanded="True" />
@@ -39,11 +33,13 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.0.0" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.adb-M4AIGF003701ZMH-rOMdjC._adb-tls-connect._tcp." />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/ViewModels/MainPageViewModel.cs" relfile="RealtimeMobile/RealtimeMobile/ViewModels/MainPageViewModel.cs" line="39" column="1" />
+      <Breakpoint file="/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/Views/LoginRegisterPage.xaml.cs" relfile="RealtimeMobile/RealtimeMobile/Views/LoginRegisterPage.xaml.cs" line="62" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.0.0" />
   <MultiItemStartupConfigurations />
 </Properties>

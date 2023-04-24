@@ -3,9 +3,17 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "RealtimeMobile.Android.dll" comes first in this list. */
 		"RealtimeMobile.Android.dll",
+		"FFImageLoading.dll",
+		"FFImageLoading.Forms.dll",
+		"FFImageLoading.Forms.Platform.dll",
+		"FFImageLoading.Platform.dll",
+		"FFImageLoading.Svg.Forms.dll",
+		"FFImageLoading.Svg.Platform.dll",
+		"FFImageLoading.Transformations.dll",
 		"FormsViewGroup.dll",
 		"RealtimeMobile.dll",
 		"Rg.Plugins.Popup.dll",
+		"SkiaSharp.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",

@@ -71,6 +71,8 @@
     <Compile Include="Renderers\MaterialFrameRenderer.cs" />
     <Compile Include="Renderers\CustomEntryRenderer.cs" />
     <Compile Include="Renderers\BorderlessPickerRenderer.cs" />
+    <Compile Include="Renderers\MaterialButtonRenderer.cs" />
+    <Compile Include="Renderers\StrokeLabelRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -116,6 +118,11 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LoginRegisterBackground.imageset\LoginRegisterBackground%402x.png" />
+    <ImageAsset Include="Assets.xcassets\LoginRegisterBackground.imageset\LoginRegisterBackground%403x.png" />
+    <ImageAsset Include="Assets.xcassets\LoginRegisterBackground.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LoginRegisterBackground.imageset\LoginRegisterBackground%401x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -150,6 +157,7 @@
     <BundleResource Include="Resources\email.png" />
     <BundleResource Include="Resources\lock.png" />
     <BundleResource Include="Resources\eye.png" />
+    <BundleResource Include="Resources\UICLogoWhite.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Renderers\" />
