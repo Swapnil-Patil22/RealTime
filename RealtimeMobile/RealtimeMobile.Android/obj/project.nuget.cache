@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rciTBT/nydyd/eBlrcTgvEz99CjN4yNHjZq3YimjkXaC5j720CDPkevM4jtbjD+mOHmkAdEJGjswm9Wd+haPNw==",
+  "dgSpecHash": "D+yl2+jsS7utEeQdnnrFWP0EeBkJ6U3AxoJvimtkeWyl2X9yR8BYn3GUkmrE1gXQJVaNJgrA0YzGmY1sXtsmSQ==",
   "success": true,
   "projectFilePath": "/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile.Android/RealtimeMobile.Android.csproj",
   "expectedPackageFiles": [
     "/Users/apple/.nuget/packages/rg.plugins.popup/2.1.0/rg.plugins.popup.2.1.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/skiasharp/1.68.0/skiasharp.1.68.0.nupkg.sha512",
     "/Users/apple/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/apple/.nuget/packages/xamarin.androidx.activity/1.2.4.1/xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "/Users/apple/.nuget/packages/xamarin.androidx.annotation/1.2.0.1/xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
@@ -61,6 +62,11 @@
     "/Users/apple/.nuget/packages/xamarin.androidx.viewpager2/1.0.0.10/xamarin.androidx.viewpager2.1.0.0.10.nupkg.sha512",
     "/Users/apple/.nuget/packages/xamarin.communitytoolkit/2.0.5/xamarin.communitytoolkit.2.0.5.nupkg.sha512",
     "/Users/apple/.nuget/packages/xamarin.essentials/1.7.5/xamarin.essentials.1.7.5.nupkg.sha512",
+    "/Users/apple/.nuget/packages/xamarin.ffimageloading/2.4.11.982/xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "/Users/apple/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "/Users/apple/.nuget/packages/xamarin.ffimageloading.svg/2.4.11.982/xamarin.ffimageloading.svg.2.4.11.982.nupkg.sha512",
+    "/Users/apple/.nuget/packages/xamarin.ffimageloading.svg.forms/2.4.11.982/xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512",
+    "/Users/apple/.nuget/packages/xamarin.ffimageloading.transformations/2.4.11.982/xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
     "/Users/apple/.nuget/packages/xamarin.forms/5.0.0.2578/xamarin.forms.5.0.0.2578.nupkg.sha512",
     "/Users/apple/.nuget/packages/xamarin.google.android.material/1.4.0.2/xamarin.google.android.material.1.4.0.2.nupkg.sha512",
     "/Users/apple/.nuget/packages/xamarin.google.guava.listenablefuture/1.0.0.2/xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"

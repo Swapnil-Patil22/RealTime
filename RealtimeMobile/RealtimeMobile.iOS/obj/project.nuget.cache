@@ -1,13 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "FYD/ZjPI0BYpV7hEd4fj7t1OrP+3m4aTXqZ1qUNbFWUqtZLJ7KgLfAZY+I9DLbQm7K39yzB5bpvI/vBDEjvxbA==",
+  "dgSpecHash": "D6LrPsc2Ed189SGaVBBqWElRc6BZS64scHr+s7QBwBZJOSFq83gKw9EkRBY429j4pCySWD35HID+N+2QIzQsiA==",
   "success": true,
   "projectFilePath": "/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile.iOS/RealtimeMobile.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/apple/.nuget/packages/rg.plugins.popup/2.1.0/rg.plugins.popup.2.1.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/skiasharp/1.68.0/skiasharp.1.68.0.nupkg.sha512",
     "/Users/apple/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/webp.touch/1.0.8/webp.touch.1.0.8.nupkg.sha512",
     "/Users/apple/.nuget/packages/xamarin.communitytoolkit/2.0.5/xamarin.communitytoolkit.2.0.5.nupkg.sha512",
     "/Users/apple/.nuget/packages/xamarin.essentials/1.7.5/xamarin.essentials.1.7.5.nupkg.sha512",
+    "/Users/apple/.nuget/packages/xamarin.ffimageloading/2.4.11.982/xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "/Users/apple/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "/Users/apple/.nuget/packages/xamarin.ffimageloading.svg/2.4.11.982/xamarin.ffimageloading.svg.2.4.11.982.nupkg.sha512",
+    "/Users/apple/.nuget/packages/xamarin.ffimageloading.svg.forms/2.4.11.982/xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512",
+    "/Users/apple/.nuget/packages/xamarin.ffimageloading.transformations/2.4.11.982/xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
     "/Users/apple/.nuget/packages/xamarin.forms/5.0.0.2578/xamarin.forms.5.0.0.2578.nupkg.sha512"
   ],
   "logs": []

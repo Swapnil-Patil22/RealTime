@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:translator="clr-namespace:RealtimeMobile.Helper" xmlns:customcontrols="clr-namespace:RealtimeMobile.CustomControls"
+    x:Class="RealtimeMobile.Views.LoginRegisterPage" FlowDirection="MatchParent">
+    <ContentPage.Content>
+        <Grid FlowDirection="MatchParent">
+            <Image Source="LoginRegisterBackground.png"/>
+            <ffimageloading:CachedImage
+                    Source="LoginRegisterBackground.png"
+                    Aspect="AspectFill">
+            </ffimageloading:CachedImage>
+            <StackLayout FlowDirection="MatchParent">
+                <Button x:Name="langChangeButton"
+                        Text="{translator:Translate LanguageName}"
+                        FontSize="12"
+                        BorderWidth="1"
+                        CornerRadius="28"
+                        BorderColor="White"
+                        TextColor="White"
+                        HorizontalOptions="EndAndExpand"
+                        Margin="14,30,14,0" Clicked="langChangeButton_Clicked" BackgroundColor="Transparent"/>
+                <StackLayout VerticalOptions="EndAndExpand" Margin="20,0">
+                    <Label Text="{translator:Translate Welcome}"
+                           TextColor="White"
+                           FlowDirection="MatchParent"
+                           FontSize="38"
+                           HorizontalOptions="Center"
+                           />
+                    <Label Text="{translator:Translate ASJWUIASJWUI}"
+                           TextColor="White"
+                           FlowDirection="MatchParent"
+                           FontSize="16"
+                           HorizontalOptions="Center"
+                           HorizontalTextAlignment="Center"
+                           Margin="20,0"
+                           />
+                    <!--<customcontrols:StrokeLabel Text="{translator:Translate Welcome}"
+                           TextColor="White"
+                           FlowDirection="MatchParent"
+                           FontSize="38"
+                           HorizontalOptions="Center"
+                           StrokeColor="Black"
+                           StrokeThickness="2"
+                           CustomFontSize ="38"
+                           />
+                    <customcontrols:StrokeLabel Text="{translator:Translate ASJWUIASJWUI}"
+                           TextColor="White"
+                           FlowDirection="MatchParent"
+                           FontSize="16"
+                           HorizontalOptions="Center"
+                           HorizontalTextAlignment="Center"
+                           Margin="20,0"
+                           StrokeColor="Black"
+                           StrokeThickness="2"
+                           CustomFontSize ="16"
+                           />-->
+                    <customcontrols:MaterialButton 
+                        Text="{translator:Translate Login}"
+                        FontAttributes="Bold"
+                        FontSize="18"
+                        CornerRadius="18"
+                        TextColor="White"
+                        BackgroundColor="{StaticResource themeBlue}"
+                        HeightRequest="43"
+                        
+                        Margin="30,30,30,0"
+                        Elevation="10"
+                        ShadowColor="Blue"/>
+                    <customcontrols:MaterialButton  
+                        Text="{translator:Translate Register}"
+                        FontSize="18"
+                        CornerRadius="18"
+                        TextColor="{StaticResource themeBlue}"
+                        BackgroundColor="White"
+                        HeightRequest="43"
+                        
+                        Margin="30,30,30,60"
+                        Elevation="16"
+                        ShadowColor="White" />
+                </StackLayout>
+
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

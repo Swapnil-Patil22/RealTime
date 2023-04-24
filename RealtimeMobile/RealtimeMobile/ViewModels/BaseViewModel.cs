@@ -8,13 +8,18 @@ namespace RealtimeMobile.ViewModels
 
     public class BaseViewModel : INotifyPropertyChanged
     {
+        /// <summary>
+        /// show/hide loader using this property
+        /// </summary>
         bool isBusy = false;
         public bool IsBusy
         {
             get { return isBusy; }
             set { SetProperty(ref isBusy, value); }
         }
-
+        /// <summary>
+        /// title of loader
+        /// </summary>
         string title = string.Empty;
         public string Title
         {
@@ -36,6 +41,10 @@ namespace RealtimeMobile.ViewModels
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="propertyName"></param>
         protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
         {
             var changed = PropertyChanged;

@@ -10,7 +10,6 @@ namespace RealtimeMobile.ViewModels
 {
 	public class MainPageViewModel : BaseViewModel
     {
-
         private CountryModel _selectedCountry;
 
         public MainPageViewModel()
@@ -20,6 +19,9 @@ namespace RealtimeMobile.ViewModels
             CountrySelectedCommand = new Command(country => ExecuteCountrySelectedCommand(country as CountryModel));
         }
 
+        /// <summary>
+        /// country selection property
+        /// </summary>
         public CountryModel SelectedCountry
         {
             get => _selectedCountry;
