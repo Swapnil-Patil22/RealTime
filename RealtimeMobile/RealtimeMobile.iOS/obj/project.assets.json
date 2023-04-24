@@ -2118,11 +2118,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile.iOS/RealtimeMobile.iOS.csproj",
+      "projectUniqueName": "/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile.iOS/RealtimeMobile.iOS.csproj",
       "projectName": "RealtimeMobile.iOS",
-      "projectPath": "/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile.iOS/RealtimeMobile.iOS.csproj",
+      "projectPath": "/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile.iOS/RealtimeMobile.iOS.csproj",
       "packagesPath": "/Users/apple/.nuget/packages/",
-      "outputPath": "/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile.iOS/obj/",
+      "outputPath": "/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2137,8 +2137,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/RealtimeMobile.csproj": {
-              "projectPath": "/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/RealtimeMobile.csproj"
+            "/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile/RealtimeMobile.csproj": {
+              "projectPath": "/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile/RealtimeMobile.csproj"
             }
           }
         }

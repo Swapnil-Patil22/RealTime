@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lu2QzUrHwqC5T6COrMLo9i01lKL9+Z2Wgl+KO6WsJLgwI5Dmx5tC9WB8hECoVYDrWT2iwUHGUkAyXO+03SFuyw==",
+  "dgSpecHash": "FNqpkxo9m6P6gqyUy4x9AvgOBe8AKGI8fkvEtOWvfcsD9tVSVbUOT6hGgJrTMYCnOvl6WiD4hr3jcSgamJPcWw==",
   "success": true,
-  "projectFilePath": "/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/RealtimeMobile.csproj",
+  "projectFilePath": "/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile/RealtimeMobile.csproj",
   "expectedPackageFiles": [
     "/Users/apple/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/apple/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",

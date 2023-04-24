@@ -12,7 +12,7 @@
       <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
       <CodesignKeychain></CodesignKeychain>
       <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
-      <SourceProjectPath>/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile.iOS</SourceProjectPath>
+      <SourceProjectPath>/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile.iOS</SourceProjectPath>
     </_CodesignBundle>
   </ItemGroup>
 </Project>

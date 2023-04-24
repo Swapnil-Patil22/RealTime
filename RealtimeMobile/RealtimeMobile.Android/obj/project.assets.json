@@ -3932,11 +3932,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile.Android/RealtimeMobile.Android.csproj",
+      "projectUniqueName": "/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile.Android/RealtimeMobile.Android.csproj",
       "projectName": "RealtimeMobile.Android",
-      "projectPath": "/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile.Android/RealtimeMobile.Android.csproj",
+      "projectPath": "/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile.Android/RealtimeMobile.Android.csproj",
       "packagesPath": "/Users/apple/.nuget/packages/",
-      "outputPath": "/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile.Android/obj/",
+      "outputPath": "/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -3951,8 +3951,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/RealtimeMobile.csproj": {
-              "projectPath": "/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/RealtimeMobile.csproj"
+            "/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile/RealtimeMobile.csproj": {
+              "projectPath": "/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile/RealtimeMobile.csproj"
             }
           }
         }

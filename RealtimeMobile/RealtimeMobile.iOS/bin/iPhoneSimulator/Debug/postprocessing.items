@@ -7,9 +7,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>RealtimeMobile.iOS.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list</SymbolFile>
+      <SymbolFile>/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list</SymbolFile>
       <DSymName>RealtimeMobile.iOS.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile.iOS</SourceProjectPath>
+      <SourceProjectPath>/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile.iOS</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>

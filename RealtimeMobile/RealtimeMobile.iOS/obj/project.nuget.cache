@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D6LrPsc2Ed189SGaVBBqWElRc6BZS64scHr+s7QBwBZJOSFq83gKw9EkRBY429j4pCySWD35HID+N+2QIzQsiA==",
+  "dgSpecHash": "NOkD5FiWYhoP5G5NWg0d7kEccObPWxRj2bEqzpz3TwJYkCw9ReeA6H88FaOGIhJ5BwWC4ILJCTJI0mYrNiPIAA==",
   "success": true,
-  "projectFilePath": "/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile.iOS/RealtimeMobile.iOS.csproj",
+  "projectFilePath": "/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile.iOS/RealtimeMobile.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/apple/.nuget/packages/rg.plugins.popup/2.1.0/rg.plugins.popup.2.1.0.nupkg.sha512",
     "/Users/apple/.nuget/packages/skiasharp/1.68.0/skiasharp.1.68.0.nupkg.sha512",

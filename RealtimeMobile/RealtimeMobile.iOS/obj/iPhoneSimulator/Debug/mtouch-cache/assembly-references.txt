@@ -1,6 +1,6 @@
-/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile.iOS/bin/iPhoneSimulator/Debug/RealtimeMobile.iOS.exe
+/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile.iOS/bin/iPhoneSimulator/Debug/RealtimeMobile.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/16.2.0.5/lib/mono/Xamarin.iOS/mscorlib.dll
-/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/bin/Debug/netstandard2.0/RealtimeMobile.dll
+/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile/bin/Debug/netstandard2.0/RealtimeMobile.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/16.2.0.5/lib/mono/Xamarin.iOS/Facades/netstandard.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/16.2.0.5/lib/mono/Xamarin.iOS/System.Core.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/16.2.0.5/lib/mono/Xamarin.iOS/System.dll

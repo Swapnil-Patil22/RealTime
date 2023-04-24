@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=unix
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638179308007399489
+_nugetassetstimestamp=638179321232323460
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=/users/apple/projects/realtimemobile/realtimemobile/realtimemobile.android/realtimemobile.android.csproj
+projectfullpath=/users/apple/documents/realtime/realtimemobile/realtimemobile.android/realtimemobile.android.csproj
