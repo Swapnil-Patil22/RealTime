@@ -38,6 +38,7 @@
                            HorizontalTextAlignment="Center"
                            Margin="20,0"
                            />
+                    <Label Text="TEST"/>
                     <!--<customcontrols:StrokeLabel Text="{translator:Translate Welcome}"
                            TextColor="White"
                            FlowDirection="MatchParent"
