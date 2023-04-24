@@ -19,7 +19,7 @@
 		<value>English</value>
 	</data>
 	<data name="LanguageNameArabic" xml:space="preserve">
-		<value>	اللغة العربية</value>
+		<value>اللغة العربية</value>
 	</data>
 	<data name="ASJWUIASJWUI" xml:space="preserve">
 		<value>A Safe Journey with united insurance, A Safe Journey with united insurance</value>
@@ -30,5 +30,27 @@
 	<data name="Register" xml:space="preserve">
 		<value>Register</value>
 	</data>
+	<data name="LTYA" xml:space="preserve">
+		<value>Login to your Account</value>
+	</data>
+	<data name="RememberMe" xml:space="preserve">
+		<value>Remember me</value>
+	</data>
+	<data name="SignIn" xml:space="preserve">
+		<value>Sign in</value>
+	</data>
+	<data name="FTP" xml:space="preserve">
+		<value>Forgot the password?</value>
+	</data>
+	<data name="DHAA" xml:space="preserve">
+		<value>Don’t have an account?</value>
+	</data>
+	<data name="SignUp" xml:space="preserve">
+		<value>Sign up</value>
+	</data>
+	<data name="BPOCH" xml:space="preserve">
+		<value>Buy Policies Online ? Click Here</value>
+	</data>
+	
 </root>
 

@@ -7,7 +7,8 @@
              x:DataType="viewmodels:MainPageViewModel" 
              ios:Page.UseSafeArea="true"
              xmlns:vm="clr-namespace:RealtimeMobile.ViewModels"
-             x:Class="RealtimeMobile.MainPage" BackgroundColor="White">
+             x:Class="RealtimeMobile.Views.RegisterPage"
+             BackgroundColor="White" >
     <ContentPage.BindingContext>
         <vm:MainPageViewModel />
     </ContentPage.BindingContext>
@@ -20,23 +21,23 @@
         <ScrollView>
             <StackLayout Padding="20,10,20,20" Spacing="24" >
                 <!--Full Name -->
-                <customcontrols:MaterialFrame Padding="10,0"
+                <customcontrols:Customframe Padding="10,0"
                                               BackgroundColor="WhiteSmoke"
-                                              HasShadow="True"
+                                              HasShadow="False"
                                               CornerRadius="10">
                     <customcontrols:CustomEntry TextColor="Black"
                                                 Placeholder="Full Name"
                                                 HeightRequest="50" FontSize="14" />
-                </customcontrols:MaterialFrame>
+                </customcontrols:Customframe>
 
                 <!--Id Number -->
-                <customcontrols:MaterialFrame Padding="10,0"
+                <customcontrols:Customframe Padding="10,0"
                                               BackgroundColor="WhiteSmoke"
-                                              HasShadow="True"
+                                              HasShadow="False"
                                               CornerRadius="10">
                     <customcontrols:CustomEntry Placeholder="ID Number"
                                                 HeightRequest="50" FontSize="14"/>
-                </customcontrols:MaterialFrame>
+                </customcontrols:Customframe>
 
                 <!--Country -->
                 <customcontrols:Customframe HasShadow="False"
@@ -71,12 +72,12 @@
                                             CornerRadius="10"
                                             Padding="0">
                     <Grid HeightRequest="50" Padding="0" >
-                        <Image Source="downarrowfill.png" HeightRequest="16" HorizontalOptions="End" Margin="0,0,15,0"/>
+                        <Image Source="downarrowfill.png" HeightRequest="16" HorizontalOptions="End" Margin="15,0,15,0"/>
                         <customcontrols:BorderlessPicker Title="Select Gender"
                                 TitleColor="Black" 
                                 HorizontalOptions="FillAndExpand"
                                 TextColor="Black"
-                                FontSize="14" Margin="15,0,0,0" BackgroundColor="Transparent">
+                                FontSize="14" Margin="15,0,15,0" >
                             <customcontrols:BorderlessPicker.ItemsSource>
                                 <x:Array Type="{x:Type x:String}">
                                     <x:String>Male</x:String>

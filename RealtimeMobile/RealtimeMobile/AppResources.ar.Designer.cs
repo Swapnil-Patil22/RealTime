@@ -67,7 +67,16 @@ namespace RealtimeMobile {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to English ARABIC.
+        ///   Looks up a localized string similar to Forgot the password?.
+        /// </summary>
+        internal static string FTP {
+            get {
+                return ResourceManager.GetString("FTP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English.
         /// </summary>
         internal static string LanguageName {
             get {
@@ -94,11 +103,38 @@ namespace RealtimeMobile {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Login to your Account.
+        /// </summary>
+        internal static string LTYA {
+            get {
+                return ResourceManager.GetString("LTYA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Register.
         /// </summary>
         internal static string Register {
             get {
                 return ResourceManager.GetString("Register", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remember me.
+        /// </summary>
+        internal static string RememberMe {
+            get {
+                return ResourceManager.GetString("RememberMe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sign in.
+        /// </summary>
+        internal static string SignIn {
+            get {
+                return ResourceManager.GetString("SignIn", resourceCulture);
             }
         }
         

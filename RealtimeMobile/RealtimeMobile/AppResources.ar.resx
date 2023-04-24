@@ -16,7 +16,7 @@
 		<value>Welcome</value>
 	</data>
 	<data name="LanguageName" xml:space="preserve">
-		<value>English ARABIC</value>
+		<value>English</value>
 	</data>
 	<data name="LanguageNameArabic" xml:space="preserve">
 		<value>	اللغة العربية</value>
@@ -29,6 +29,18 @@
 	</data>
 	<data name="Register" xml:space="preserve">
 		<value>Register</value>
+	</data>
+	<data name="LTYA" xml:space="preserve">
+		<value>Login to your Account</value>
+	</data>
+	<data name="RememberMe" xml:space="preserve">
+		<value>Remember me</value>
+	</data>
+	<data name="SignIn" xml:space="preserve">
+		<value>Sign in</value>
+	</data>
+	<data name="FTP" xml:space="preserve">
+		<value>Forgot the password?</value>
 	</data>
 </root>
 

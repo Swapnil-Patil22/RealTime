@@ -1,4 +1,23 @@
 ﻿using System.Resources;
+using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+[assembly: ExportFont("Urbanist-Thin.ttf.ttf")]
+[assembly: ExportFont("Urbanist-ExtraLight.ttf")]
+[assembly: ExportFont("Urbanist-Light.ttf")]
+[assembly: ExportFont("Urbanist-Regular.ttf")]
+[assembly: ExportFont("Urbanist-Medium.ttf")]
+[assembly: ExportFont("Urbanist-SemiBold.ttf")]
+[assembly: ExportFont("Urbanist-Bold.ttf")]
+[assembly: ExportFont("Urbanist-ExtraBold.ttf")]
+[assembly: ExportFont("Urbanist-Black.ttf")]
+[assembly: ExportFont("Urbanist-ThinItalic.ttf")]
+[assembly: ExportFont("Urbanist-ExtraLightItalic.ttf")]
+[assembly: ExportFont("Urbanist-LightItalic.ttf")]
+[assembly: ExportFont("Urbanist-Italic.ttf")]
+[assembly: ExportFont("Urbanist-MediumItalic.ttf")]
+[assembly: ExportFont("Urbanist-SemiBoldItalic.ttf")]
+[assembly: ExportFont("Urbanist-BoldItalic.ttf")]
+[assembly: ExportFont("Urbanist-ExtraBoldItalic.ttf")]
+[assembly: ExportFont("Urbanist-BlackItalic.ttf")]
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]

@@ -21,15 +21,20 @@
                HeightRequest="120" Margin="0,0,0,-20">
             <StackLayout Spacing="20" Margin="10,0">
                 <StackLayout Orientation="Horizontal">
-                    <RadioButton  BorderWidth="4" />
-                    <!--BorderColor="{StaticResource themeBlue}"-->
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="EnglishTapGestureRecognizer_Tapped"/>
+                    </StackLayout.GestureRecognizers>
+                    <RadioButton x:Name="englishRadioButton"  BorderWidth="2" />
                     <Label Text="{translator:Translate LanguageName}"
                                    VerticalTextAlignment="Center"
                                    FontSize="Body"
                                    TextColor="Black"/>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
-                    <RadioButton BorderWidth="2" />
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ArabicTapGestureRecognizer_Tapped"/>
+                    </StackLayout.GestureRecognizers>
+                    <RadioButton x:Name="arabicRadioButton" BorderWidth="2" />
                     <Label Text="{translator:Translate LanguageNameArabic}"
                                    VerticalTextAlignment="Center"
                                    FontSize="Body"

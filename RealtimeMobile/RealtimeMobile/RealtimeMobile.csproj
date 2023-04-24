@@ -31,6 +31,25 @@
     <None Remove="Manager\" />
     <None Remove="ContentVIew\" />
     <None Remove="Helper\" />
+    <None Remove="Resources\" />
+    <None Remove="Resources\Urbanist-Black.ttf" />
+    <None Remove="Resources\Urbanist-BlackItalic.ttf" />
+    <None Remove="Resources\Urbanist-Bold.ttf" />
+    <None Remove="Resources\Urbanist-BoldItalic.ttf" />
+    <None Remove="Resources\Urbanist-ExtraBold.ttf" />
+    <None Remove="Resources\Urbanist-ExtraBoldItalic.ttf" />
+    <None Remove="Resources\Urbanist-ExtraLight.ttf" />
+    <None Remove="Resources\Urbanist-ExtraLightItalic.ttf" />
+    <None Remove="Resources\Urbanist-Italic.ttf" />
+    <None Remove="Resources\Urbanist-Light.ttf" />
+    <None Remove="Resources\Urbanist-LightItalic.ttf" />
+    <None Remove="Resources\Urbanist-Medium.ttf" />
+    <None Remove="Resources\Urbanist-MediumItalic.ttf" />
+    <None Remove="Resources\Urbanist-Regular.ttf" />
+    <None Remove="Resources\Urbanist-SemiBold.ttf" />
+    <None Remove="Resources\Urbanist-SemiBoldItalic.ttf" />
+    <None Remove="Resources\Urbanist-Thin.ttf" />
+    <None Remove="Resources\Urbanist-ThinItalic.ttf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CustomControls\" />
@@ -42,6 +61,27 @@
     <Folder Include="Manager\" />
     <Folder Include="ContentVIews\" />
     <Folder Include="Helper\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Urbanist-Black.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-BlackItalic.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-Bold.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-BoldItalic.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-ExtraBold.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-ExtraBoldItalic.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-ExtraLight.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-ExtraLightItalic.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-Italic.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-Light.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-LightItalic.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-Medium.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-MediumItalic.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-Regular.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-SemiBold.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-SemiBoldItalic.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-Thin.ttf" />
+    <EmbeddedResource Include="Resources\Urbanist-ThinItalic.ttf" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="AppResources.resx">

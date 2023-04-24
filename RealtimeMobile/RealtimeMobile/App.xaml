@@ -3,6 +3,153 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RealtimeMobile.App">
     <Application.Resources>
-         <Color x:Key="themeBlue">#2B32B2</Color>
+        <ResourceDictionary>
+            <OnPlatform x:Key="UrbanistBlack"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist Black" />
+                <On Platform="Android"
+                    Value="Urbanist-Black.ttf#EncodeUrbanistBlack" />
+            </OnPlatform>
+            <OnPlatform x:Key="UrbanistBlackItalic"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist BlackItalic" />
+                <On Platform="Android"
+                    Value="Urbanist-BlackItalic.ttf#EncodeUrbanistBlackItalic" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="UrbanistBold"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist Bold" />
+                <On Platform="Android"
+                    Value="Urbanist-Bold.ttf#EncodeUrbanistBold" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="UrbanistBoldItalic"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist BoldItalic" />
+                <On Platform="Android"
+                    Value="Urbanist-BoldItalic.ttf#EncodeUrbanistBoldItalic" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="UrbanistExtraBoldItalic"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist ExtraBoldItalic" />
+                <On Platform="Android"
+                    Value="Urbanist-ExtraBoldItalic.ttf#EncodeUrbanistExtraBoldItalic" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="UrbanistExtraBold"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist ExtraBold" />
+                <On Platform="Android"
+                    Value="Urbanist-ExtraBold.ttf#EncodeUrbanistExtraBold" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="UrbanistExtraLight"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist ExtraLight" />
+                <On Platform="Android"
+                    Value="Urbanist-ExtraLight.ttf#EncodeUrbanistExtraLight" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="UrbanistExtraLightItalic"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist ExtraLightItalic" />
+                <On Platform="Android"
+                    Value="Urbanist-ExtraLightItalic.ttf#EncodeUrbanistExtraLightItalic" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="UrbanistItalic"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist Italic" />
+                <On Platform="Android"
+                    Value="Urbanist-Italic.ttf#EncodeUrbanistItalic" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="UrbanistLight"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist Light" />
+                <On Platform="Android"
+                    Value="Urbanist-Light.ttf#EncodeUrbanistLight" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="UrbanistLightItalic"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist LightItalic" />
+                <On Platform="Android"
+                    Value="Urbanist-LightItalic.ttf#EncodeUrbanistLightItalic" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="UrbanistMedium"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist Medium" />
+                <On Platform="Android"
+                    Value="Urbanist-Medium.ttf#EncodeUrbanistMedium" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="UrbanistMediumItalic"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist MediumItalic" />
+                <On Platform="Android"
+                    Value="Urbanist-MediumItalic.ttf#EncodeUrbanistMediumItalic" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="UrbanistRegular"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist Regular" />
+                <On Platform="Android"
+                    Value="Urbanist-Regular.ttf#EncodeUrbanistRegular" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="UrbanistSemiBold"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist SemiBold" />
+                <On Platform="Android"
+                    Value="Urbanist-SemiBold.ttf#EncodeUrbanistSemiBold" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="UrbanistSemiBoldItalic"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist SemiBoldItalic" />
+                <On Platform="Android"
+                    Value="Urbanist-SemiBoldItalic.ttf#EncodeUrbanistSemiBoldItalic" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="UrbanistThin"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist Thin" />
+                <On Platform="Android"
+                    Value="Urbanist-Thin.ttf#EncodeUrbanistThin" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="UrbanistThinItalic"
+                        x:TypeArguments="x:String">
+                <On Platform="iOS"
+                    Value="Urbanist ThinItalic" />
+                <On Platform="Android"
+                    Value="Urbanist-ThinItalic.ttf#EncodeUrbanistThinItalic" />
+            </OnPlatform>
+            <Color x:Key="themeBlue">#2B32B2</Color>
+            <Color x:Key="textWhite">#EBEFFE</Color>
+            <Color x:Key="buttonShadow">#335ef7</Color>
+            <Color x:Key="entryBackground">#FAFAFA</Color>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -3,7 +3,9 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
-    xmlns:translator="clr-namespace:RealtimeMobile.Helper" xmlns:customcontrols="clr-namespace:RealtimeMobile.CustomControls"
+    xmlns:translator="clr-namespace:RealtimeMobile.Helper"
+    xmlns:customcontrols="clr-namespace:RealtimeMobile.CustomControls"
+    xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
     x:Class="RealtimeMobile.Views.LoginRegisterPage" FlowDirection="MatchParent">
     <ContentPage.Content>
         <Grid FlowDirection="MatchParent">
@@ -15,12 +17,13 @@
             <StackLayout FlowDirection="MatchParent">
                 <Button x:Name="langChangeButton"
                         Text="{translator:Translate LanguageName}"
-                        FontSize="12"
-                        BorderWidth="1"
+                        FontSize="14"
+                        BorderWidth="2"
                         CornerRadius="22"
                         BorderColor="White"
                         TextColor="White"
                         HorizontalOptions="EndAndExpand"
+                        FontFamily="Urbanist-SemiBold"
                         Padding="20 ,0"
                         Margin="14,30,14,0" Clicked="langChangeButton_Clicked" BackgroundColor="Transparent"/>
                 <StackLayout VerticalOptions="EndAndExpand" Margin="20,0">
@@ -29,6 +32,12 @@
                            FlowDirection="MatchParent"
                            FontSize="38"
                            HorizontalOptions="Center"
+                           FontFamily="Urbanist-Bold"
+                           xct:ShadowEffect.Color="Black"
+                           xct:ShadowEffect.OffsetY="1"
+                           xct:ShadowEffect.OffsetX="1"
+                           xct:ShadowEffect.Opacity="1"
+                           xct:ShadowEffect.Radius="0"
                            />
                     <Label Text="{translator:Translate ASJWUIASJWUI}"
                            TextColor="White"
@@ -36,52 +45,44 @@
                            FontSize="16"
                            HorizontalOptions="Center"
                            HorizontalTextAlignment="Center"
+                           FontFamily="Urbanist-SemiBold"
                            Margin="20,0"
+                           xct:ShadowEffect.Color="Black"
+                           xct:ShadowEffect.OffsetY="1"
+                           xct:ShadowEffect.OffsetX="1"
+                           xct:ShadowEffect.Opacity="1"
+                           xct:ShadowEffect.Radius="0"
                            />
-                    <Label Text="TEST"/>
-                    <!--<customcontrols:StrokeLabel Text="{translator:Translate Welcome}"
-                           TextColor="White"
-                           FlowDirection="MatchParent"
-                           FontSize="38"
-                           HorizontalOptions="Center"
-                           StrokeColor="Black"
-                           StrokeThickness="2"
-                           CustomFontSize ="38"
-                           />
-                    <customcontrols:StrokeLabel Text="{translator:Translate ASJWUIASJWUI}"
-                           TextColor="White"
-                           FlowDirection="MatchParent"
-                           FontSize="16"
-                           HorizontalOptions="Center"
-                           HorizontalTextAlignment="Center"
-                           Margin="20,0"
-                           StrokeColor="Black"
-                           StrokeThickness="2"
-                           CustomFontSize ="16"
-                           />-->
-                    <customcontrols:MaterialButton 
+                    <Button 
                         Text="{translator:Translate Login}"
-                        FontAttributes="Bold"
+                        FontFamily="Urbanist-Bold"
                         FontSize="18"
                         CornerRadius="18"
                         TextColor="White"
                         BackgroundColor="{StaticResource themeBlue}"
                         HeightRequest="43"
-                        
                         Margin="30,30,30,0"
-                        Elevation="10"
-                        ShadowColor="Blue"/>
-                    <customcontrols:MaterialButton  
+                        Clicked="LoginButton_Clicked"     
+                        xct:ShadowEffect.Color="{StaticResource buttonShadow}"
+                        xct:ShadowEffect.OffsetY="4"
+                        xct:ShadowEffect.OffsetX="1"
+                        xct:ShadowEffect.Opacity="0.25"
+                        xct:ShadowEffect.Radius="2"/>
+                    <Button 
                         Text="{translator:Translate Register}"
+                        FontFamily="Urbanist-Bold"
                         FontSize="18"
                         CornerRadius="18"
                         TextColor="{StaticResource themeBlue}"
                         BackgroundColor="White"
                         HeightRequest="43"
-                        
-                        Margin="30,30,30,60"
-                        Elevation="16"
-                        ShadowColor="White" />
+                        Margin="30,30,30,60"   
+                        xct:ShadowEffect.Color="{StaticResource buttonShadow}"
+                        xct:ShadowEffect.OffsetY="4"
+                        xct:ShadowEffect.OffsetX="2"
+                        xct:ShadowEffect.Opacity="0.25"
+                        xct:ShadowEffect.Radius="5"
+                        Clicked="RegisterButton_Clicked"/>
                 </StackLayout>
 
             </StackLayout>

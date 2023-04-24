@@ -50,6 +50,16 @@ namespace RealtimeMobile.Views
             //    langChangeButton.Text = AppResources.LanguageName;
             //}
         }
+
+        async void LoginButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+           await Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new LoginPage());
+        }
+
+        async void RegisterButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+           await Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new RegisterPage());
+        }
     }
 }
 
