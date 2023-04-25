@@ -41,7 +41,7 @@
                     <customcontrols:CustomEntry
                         x:Name="fullNameEntry"
                         TextColor="Black"
-                        Placeholder="Full Name"
+                        Placeholder="{translator:Translate fullName}"
                         HeightRequest="50"
                         FontSize="14"
                         FontFamily="Urbanist-Medium"/>
@@ -55,7 +55,7 @@
                     CornerRadius="10">
                     <customcontrols:CustomEntry
                         x:Name="idNumberEntry"
-                        Placeholder="ID Number"
+                        Placeholder="{translator:Translate idNumber}"
                         HeightRequest="50"
                         FontSize="14"
                         FontFamily="Urbanist-Medium"/>
@@ -95,7 +95,7 @@
                                             Padding="0">
                     <Grid HeightRequest="50" Padding="0"  >
                         <Image Source="downarrowfill.png" HeightRequest="16" HorizontalOptions="End" Margin="15,0,15,0"/>
-                        <customcontrols:BorderlessPicker Title="Select Gender"
+                        <customcontrols:BorderlessPicker Title="{translator:Translate selectGender}"
                                 TitleColor="Black" 
                                 HorizontalOptions="StartAndExpand"
                                 HorizontalTextAlignment="End"
@@ -125,6 +125,7 @@
                         Spacing="10">
                         <customcontrols:CustomEntry
                             x:Name="emailEntry"
+                            Placeholder="{translator:Translate emailId}"
                             Text="email@yourdomain.com"
                             TextColor="Black"
                             FontSize="14"
@@ -155,6 +156,7 @@
                             Source="downarrow.png"
                             HeightRequest="16"/>
                         <customcontrols:CustomEntry
+                            Placeholder="{translator:Translate mobileNumber}"
                             x:Name="mobileNumberEntry"
                             Text="+9730000000"
                             TextColor="Black"
@@ -180,7 +182,7 @@
                             HeightRequest="16"/>
                         <customcontrols:CustomEntry
                             x:Name="passwordEntry"
-                            Placeholder="Password"
+                            Placeholder="{translator:Translate password}"
                             FontSize="14"
                             HorizontalOptions="FillAndExpand"
                             IsPassword="True"
@@ -207,7 +209,7 @@
                             HeightRequest="16" />
                         <customcontrols:CustomEntry
                             x:Name="confirmPasswordEntry"
-                            Placeholder="Confirm Password"
+                            Placeholder="{translator:Translate confirmPassword}"
                             FontSize="14"
                             HorizontalOptions="FillAndExpand"
                             IsPassword="True"

@@ -22,5 +22,19 @@ namespace RealtimeMobile.CustomControls
                 SetValue(ElevationProperty, value);
             }
         }
+
+        public static BindableProperty BorderThicknessProperty = BindableProperty.Create(nameof(BorderThickness), typeof(float), typeof(MaterialFrame), 0.0f);
+
+        public float BorderThickness
+        {
+            get
+            {
+                return (float)GetValue(BorderThicknessProperty);
+            }
+            set
+            {
+                SetValue(BorderThicknessProperty, value);
+            }
+        }
     }
 }

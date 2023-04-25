@@ -1,31 +1,26 @@
-﻿<Properties StartupConfiguration="{B25396AD-6785-47F2-B03A-D2179DF157A8}|Default">
-  <MonoDevelop.Ide.ItemProperties.RealtimeMobile.Android PreferredExecutionTarget="Android.adb-M4AIGF003701ZMH-rOMdjC._adb-tls-connect._tcp." />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RealtimeMobile/RealtimeMobile/Views/RegisterPage.xaml">
+﻿<Properties StartupConfiguration="{13910230-3549-4B6F-BB7B-EE60CC189118}|Default">
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.0.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RealtimeMobile/RealtimeMobile/Views/LoginRegisterPage.xaml">
     <Files>
-      <File FileName="RealtimeMobile/RealtimeMobile/Views/LoginRegisterPage.xaml" />
-      <File FileName="RealtimeMobile/RealtimeMobile/PopUps/LanguageSelectionPopup.xaml" Line="7" Column="9" />
-      <File FileName="RealtimeMobile/RealtimeMobile/Views/RegisterPage.xaml" Line="79" Column="62" />
-      <File FileName="RealtimeMobile/RealtimeMobile.Android/Renderers/BorderlessPickerRenderer.cs" Line="10" Column="56" />
-      <File FileName="RealtimeMobile/RealtimeMobile/Views/LoginPage.xaml" Line="204" Column="43" />
-      <File FileName="RealtimeMobile/RealtimeMobile/Views/RegisterPage.xaml.cs" Line="22" Column="24" />
-      <File FileName="RealtimeMobile/RealtimeMobile/Views/LoginPage.xaml.cs" Line="102" Column="45" />
+      <File FileName="RealtimeMobile/RealtimeMobile/Views/LoginPage.xaml" Line="93" Column="54" />
+      <File FileName="RealtimeMobile/RealtimeMobile/Views/LoginPage.xaml.cs" Line="41" Column="18" />
+      <File FileName="RealtimeMobile/RealtimeMobile/Views/RegisterPage.xaml.cs" Line="16" Column="35" />
+      <File FileName="RealtimeMobile/RealtimeMobile/Views/LoginRegisterPage.xaml.cs" Line="28" Column="16" />
+      <File FileName="RealtimeMobile/RealtimeMobile/Views/LoginRegisterPage.xaml" Line="24" Column="54" />
+      <File FileName="RealtimeMobile/RealtimeMobile/CustomControls/MaterialFrame.cs" Line="18" Column="57" />
+      <File FileName="RealtimeMobile/RealtimeMobile.iOS/Renderers/MaterialFrameRenderer.cs" Line="38" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RealtimeMobile" expanded="True">
             <Node name="RealtimeMobile" expanded="True">
-              <Node name="PopUps" expanded="True">
-                <Node name="LanguageSelectionPopup.xaml" expanded="True" />
-              </Node>
+              <Node name="CustomControls" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="LoginPage.xaml" expanded="True" />
-                <Node name="LoginRegisterPage.xaml" expanded="True" />
-                <Node name="RegisterPage.xaml" expanded="True" selected="True" />
+                <Node name="LoginRegisterPage.xaml" expanded="True" selected="True" />
+                <Node name="RegisterPage.xaml" expanded="True" />
               </Node>
-            </Node>
-            <Node name="RealtimeMobile.Android" expanded="True">
-              <Node name="Renderers" expanded="True" />
             </Node>
             <Node name="RealtimeMobile.iOS" expanded="True">
               <Node name="Renderers" expanded="True" />
@@ -35,6 +30,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.RealtimeMobile.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6FE6932A-76CD-47F0-895A-9C57036032E4" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -42,8 +38,7 @@
       <Breakpoint file="/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile/Views/LoginRegisterPage.xaml.cs" relfile="RealtimeMobile/RealtimeMobile/Views/LoginRegisterPage.xaml.cs" line="62" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.adb-M4AIGF003701ZMH-rOMdjC._adb-tls-connect._tcp." />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Nexus_5_API_30" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.0.0" />
+  <MonoDevelop.Ide.ItemProperties.RealtimeMobile.Android PreferredExecutionTarget="Android.Nexus_5_API_30" />
 </Properties>

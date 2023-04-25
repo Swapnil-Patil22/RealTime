@@ -26,12 +26,15 @@ namespace RealtimeMobile.Views
             else if (lang == "Arabic")
             {
                 backBtn.Rotation = 180;
-                fullNameEntry.HorizontalTextAlignment = TextAlignment.End;
-                idNumberEntry.HorizontalTextAlignment = TextAlignment.End;
-                emailEntry.HorizontalTextAlignment = TextAlignment.End;
-                mobileNumberEntry.HorizontalTextAlignment = TextAlignment.End;
-                passwordEntry.HorizontalTextAlignment = TextAlignment.End;
-                confirmPasswordEntry.HorizontalTextAlignment = TextAlignment.End;
+                if (Device.RuntimePlatform == Device.Android)
+                {
+                    fullNameEntry.HorizontalTextAlignment = TextAlignment.End;
+                    idNumberEntry.HorizontalTextAlignment = TextAlignment.End;
+                    emailEntry.HorizontalTextAlignment = TextAlignment.End;
+                    mobileNumberEntry.HorizontalTextAlignment = TextAlignment.End;
+                    passwordEntry.HorizontalTextAlignment = TextAlignment.End;
+                    confirmPasswordEntry.HorizontalTextAlignment = TextAlignment.End;
+                }
             }
         }
 

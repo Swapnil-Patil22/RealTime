@@ -26,9 +26,14 @@
                 <Frame HasShadow="False"
                        BackgroundColor="Transparent"
                        BorderColor="White"
-                        CornerRadius="22"
                         Padding="20,0"
                         HorizontalOptions="EndAndExpand">
+                    <Frame.CornerRadius>
+                        <OnPlatform x:TypeArguments="x:Single">
+                            <On Platform="iOS" Value="16"/>
+                            <On Platform="Android" Value="22"/>
+                        </OnPlatform>
+                    </Frame.CornerRadius>
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="langChangeButton_Clicked"/>
                     </Frame.GestureRecognizers>
@@ -84,10 +89,12 @@
                     xct:ShadowEffect.Radius="2" Padding="0" HeightRequest="60">
                         <StackLayout  Orientation="Horizontal" Padding="15,0">
                             <Image Source="lock.png" HeightRequest="16" />
-                            <customcontrols:CustomEntry Placeholder="Password"
-                                                FontSize="14"
-                                                HorizontalOptions="StartAndExpand"
-                                                IsPassword="{Binding Source={x:Reference ShowPasswordActualTrigger}, Path=HidePassword}"/>
+                            <customcontrols:CustomEntry
+                                x:Name="passwordEntry"
+                                Placeholder="Password"
+                                FontSize="14"
+                                HorizontalOptions="StartAndExpand"
+                                IsPassword="{Binding Source={x:Reference ShowPasswordActualTrigger}, Path=HidePassword}"/>
                             <ImageButton Source="eye.png" HeightRequest="20"
                                          WidthRequest="20" BackgroundColor="Transparent">
                                 <ImageButton.Triggers>
@@ -204,7 +211,7 @@
                         <StackLayout.GestureRecognizers>
                             <TapGestureRecognizer Tapped="FingerPrintTapGestureRecognizer"/>
                         </StackLayout.GestureRecognizers>
-                    <Image Source="FingerPrint"
+                        <Image Source="FingerPrint"
                          HeightRequest="71"
                          WidthRequest="72"/>
                     </StackLayout>

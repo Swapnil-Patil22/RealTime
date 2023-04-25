@@ -18,14 +18,14 @@ namespace RealtimeMobile.Views
             InitializeComponent();
 
             var lang = Manager.LanguageManager.Instance.GetLanguage();
-            if (lang == "English")
-            {
-                langChangeButton.HorizontalOptions = LayoutOptions.EndAndExpand;
-            }
-            else if (lang == "Arabic")
-            {
-                langChangeButton.HorizontalOptions = LayoutOptions.StartAndExpand;
-            }
+            //if (lang == "English")
+            //{
+            //    langChangeButton.HorizontalOptions = LayoutOptions.EndAndExpand;
+            //}
+            //else if (lang == "Arabic")
+            //{
+            //    langChangeButton.HorizontalOptions = LayoutOptions.StartAndExpand;
+            //}
         }
 
         void langChangeButton_Clicked(System.Object sender, System.EventArgs e)

@@ -29,11 +29,16 @@ namespace RealtimeMobile.Views
             {
                 backbtn.Rotation = 0;
                 mobileNumberEntry.HorizontalTextAlignment = TextAlignment.Start;
+                passwordEntry.HorizontalTextAlignment = TextAlignment.Start;
             }
             else if (lang == "Arabic")
             {
                 backbtn.Rotation = 180;
-                mobileNumberEntry.HorizontalTextAlignment = TextAlignment.End;
+                if (Device.RuntimePlatform == Device.Android)
+                {
+                    mobileNumberEntry.HorizontalTextAlignment = TextAlignment.End;
+                    passwordEntry.HorizontalTextAlignment = TextAlignment.End;
+                }
             }
         }
 
