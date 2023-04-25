@@ -159,9 +159,9 @@
     <BundleResource Include="Resources\eye.png" />
     <BundleResource Include="Resources\UICLogoWhite.png" />
     <BundleResource Include="Resources\LeftArrowWhite.png" />
-    <BundleResource Include="Resources\UnionHide.png" />
     <BundleResource Include="Resources\squarerounded.png" />
     <BundleResource Include="Resources\FingerPrint.png" />
+    <BundleResource Include="Resources\UnionHide.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Renderers\" />

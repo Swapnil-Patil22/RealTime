@@ -18,7 +18,10 @@
 	<data name="LanguageName" xml:space="preserve">
 		<value>English</value>
 	</data>
-	<data name="LanguageNameArabic" xml:space="preserve">
+	<data name="SelectEnglishLanguage" xml:space="preserve">
+		<value>English</value>
+	</data>
+	<data name="SelectArabicLanguage" xml:space="preserve">
 		<value>اللغة العربية</value>
 	</data>
 	<data name="ASJWUIASJWUI" xml:space="preserve">
@@ -50,6 +53,9 @@
 	</data>
 	<data name="BPOCH" xml:space="preserve">
 		<value>Buy Policies Online ? Click Here</value>
+	</data>
+	<data name="createAccount" xml:space="preserve">
+		<value>Create Account</value>
 	</data>
 	
 </root>

@@ -13,22 +13,25 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 	<data name="Welcome" xml:space="preserve">
-		<value>Welcome</value>
+		<value>مرحباً</value>
 	</data>
 	<data name="LanguageName" xml:space="preserve">
+		<value>اللغة العربية</value>
+	</data>
+	<data name="SelectEnglishLanguage" xml:space="preserve">
 		<value>English</value>
 	</data>
-	<data name="LanguageNameArabic" xml:space="preserve">
-		<value>	اللغة العربية</value>
+	<data name="SelectArabicLanguage" xml:space="preserve">
+		<value>اللغة العربية</value>
 	</data>
 	<data name="ASJWUIASJWUI" xml:space="preserve">
-		<value>A Safe Journey with united insurance, A Safe Journey with united insurance</value>
+		<value>رحلة آمنة مع شركة يونايتد للتأمين ، رحلة آمنة مع شركة يونايتد للتأمين</value>
 	</data>
 	<data name="Login" xml:space="preserve">
-		<value>Login</value>
+		<value>تسجيل الدخول</value>
 	</data>
 	<data name="Register" xml:space="preserve">
-		<value>Register</value>
+		<value>يسجل</value>
 	</data>
 	<data name="LTYA" xml:space="preserve">
 		<value>Login to your Account</value>

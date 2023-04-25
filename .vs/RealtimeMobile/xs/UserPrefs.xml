@@ -1,10 +1,14 @@
 ﻿<Properties StartupConfiguration="{B25396AD-6785-47F2-B03A-D2179DF157A8}|Default">
   <MonoDevelop.Ide.ItemProperties.RealtimeMobile.Android PreferredExecutionTarget="Android.adb-M4AIGF003701ZMH-rOMdjC._adb-tls-connect._tcp." />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RealtimeMobile/RealtimeMobile/PopUps/LanguageSelectionPopup.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RealtimeMobile/RealtimeMobile/Views/RegisterPage.xaml">
     <Files>
       <File FileName="RealtimeMobile/RealtimeMobile/Views/LoginRegisterPage.xaml" />
-      <File FileName="RealtimeMobile/RealtimeMobile/PopUps/LanguageSelectionPopup.xaml" Line="19" Column="4" />
+      <File FileName="RealtimeMobile/RealtimeMobile/PopUps/LanguageSelectionPopup.xaml" Line="7" Column="9" />
+      <File FileName="RealtimeMobile/RealtimeMobile/Views/RegisterPage.xaml" Line="79" Column="62" />
+      <File FileName="RealtimeMobile/RealtimeMobile.Android/Renderers/BorderlessPickerRenderer.cs" Line="10" Column="56" />
+      <File FileName="RealtimeMobile/RealtimeMobile/Views/LoginPage.xaml" Line="204" Column="43" />
+      <File FileName="RealtimeMobile/RealtimeMobile/Views/RegisterPage.xaml.cs" Line="22" Column="24" />
+      <File FileName="RealtimeMobile/RealtimeMobile/Views/LoginPage.xaml.cs" Line="102" Column="45" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,15 +19,13 @@
                 <Node name="LanguageSelectionPopup.xaml" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
+                <Node name="LoginPage.xaml" expanded="True" />
                 <Node name="LoginRegisterPage.xaml" expanded="True" />
+                <Node name="RegisterPage.xaml" expanded="True" selected="True" />
               </Node>
             </Node>
             <Node name="RealtimeMobile.Android" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True" />
-                <Node name="mipmap-hdpi" expanded="True" />
-                <Node name="values" expanded="True" />
-              </Node>
+              <Node name="Renderers" expanded="True" />
             </Node>
             <Node name="RealtimeMobile.iOS" expanded="True">
               <Node name="Renderers" expanded="True" />
@@ -33,13 +35,15 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.0.0" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.adb-M4AIGF003701ZMH-rOMdjC._adb-tls-connect._tcp." />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RealtimeMobile.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6FE6932A-76CD-47F0-895A-9C57036032E4" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/apple/Projects/RealtimeMobile/RealtimeMobile/RealtimeMobile/Views/LoginRegisterPage.xaml.cs" relfile="RealtimeMobile/RealtimeMobile/Views/LoginRegisterPage.xaml.cs" line="62" column="1" />
+      <Breakpoint file="/Users/apple/Documents/RealTime/RealtimeMobile/RealtimeMobile/Views/LoginRegisterPage.xaml.cs" relfile="RealtimeMobile/RealtimeMobile/Views/LoginRegisterPage.xaml.cs" line="62" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.adb-M4AIGF003701ZMH-rOMdjC._adb-tls-connect._tcp." />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.0.0" />
 </Properties>

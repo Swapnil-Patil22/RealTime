@@ -58,7 +58,7 @@ namespace RealtimeMobile {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A Safe Journey with united insurance, A Safe Journey with united insurance.
+        ///   Looks up a localized string similar to رحلة آمنة مع شركة يونايتد للتأمين ، رحلة آمنة مع شركة يونايتد للتأمين.
         /// </summary>
         internal static string ASJWUIASJWUI {
             get {
@@ -76,7 +76,7 @@ namespace RealtimeMobile {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to English.
+        ///   Looks up a localized string similar to اللغة العربية.
         /// </summary>
         internal static string LanguageName {
             get {
@@ -85,16 +85,7 @@ namespace RealtimeMobile {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 	اللغة العربية.
-        /// </summary>
-        internal static string LanguageNameArabic {
-            get {
-                return ResourceManager.GetString("LanguageNameArabic", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Login.
+        ///   Looks up a localized string similar to تسجيل الدخول.
         /// </summary>
         internal static string Login {
             get {
@@ -112,7 +103,7 @@ namespace RealtimeMobile {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Register.
+        ///   Looks up a localized string similar to يسجل.
         /// </summary>
         internal static string Register {
             get {
@@ -130,6 +121,24 @@ namespace RealtimeMobile {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to اللغة العربية.
+        /// </summary>
+        internal static string SelectArabicLanguage {
+            get {
+                return ResourceManager.GetString("SelectArabicLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English.
+        /// </summary>
+        internal static string SelectEnglishLanguage {
+            get {
+                return ResourceManager.GetString("SelectEnglishLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Sign in.
         /// </summary>
         internal static string SignIn {
@@ -139,7 +148,7 @@ namespace RealtimeMobile {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Welcome.
+        ///   Looks up a localized string similar to مرحباً.
         /// </summary>
         internal static string Welcome {
             get {

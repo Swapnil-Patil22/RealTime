@@ -28,10 +28,12 @@ namespace RealtimeMobile.Views
             if (lang == "English")
             {
                 backbtn.Rotation = 0;
+                mobileNumberEntry.HorizontalTextAlignment = TextAlignment.Start;
             }
             else if (lang == "Arabic")
             {
                 backbtn.Rotation = 180;
+                mobileNumberEntry.HorizontalTextAlignment = TextAlignment.End;
             }
         }
 
@@ -80,6 +82,29 @@ namespace RealtimeMobile.Views
         {
             var popup = new LanguageSelectionPopup();
             Rg.Plugins.Popup.Services.PopupNavigation.Instance.PushAsync(popup);
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            this.FlowDirection = Settings.Instance.GetFlowDirection();
+            var lang = Manager.LanguageManager.Instance.GetLanguage();
+            if (lang == "English")
+            {
+                backbtn.Rotation = 0;
+                mobileNumberEntry.HorizontalTextAlignment = TextAlignment.Start;
+            }
+            else if (lang == "Arabic")
+            {
+                backbtn.Rotation = 180;
+                mobileNumberEntry.HorizontalTextAlignment = TextAlignment.End;
+            }
+
+        }
+
+        void FingerPrintTapGestureRecognizer(System.Object sender, System.EventArgs e)
+        {
         }
     }
 

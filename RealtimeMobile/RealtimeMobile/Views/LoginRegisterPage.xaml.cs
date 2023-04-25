@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Threading;
+using RealtimeMobile.Helper;
 using RealtimeMobile.Manager;
 using RealtimeMobile.PopUps;
 using Xamarin.Forms;
@@ -15,13 +16,29 @@ namespace RealtimeMobile.Views
         {
             Xamarin.Forms.NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent();
+
+            var lang = Manager.LanguageManager.Instance.GetLanguage();
+            if (lang == "English")
+            {
+                langChangeButton.HorizontalOptions = LayoutOptions.EndAndExpand;
+            }
+            else if (lang == "Arabic")
+            {
+                langChangeButton.HorizontalOptions = LayoutOptions.StartAndExpand;
+            }
         }
 
         void langChangeButton_Clicked(System.Object sender, System.EventArgs e)
         {
-
-            var popup = new LanguageSelectionPopup();
-            Rg.Plugins.Popup.Services.PopupNavigation.Instance.PushAsync(popup);
+            try
+            {
+                var popup = new LanguageSelectionPopup();
+                Rg.Plugins.Popup.Services.PopupNavigation.Instance.PushAsync(popup);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
             //var setlang = LanguageManager.Instance.GetLanguage();
             //if (string.IsNullOrEmpty(setlang))
             //{
@@ -59,6 +76,22 @@ namespace RealtimeMobile.Views
         async void RegisterButton_Clicked(System.Object sender, System.EventArgs e)
         {
            await Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new RegisterPage());
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            this.FlowDirection = Settings.Instance.GetFlowDirection();
+            var lang = Manager.LanguageManager.Instance.GetLanguage();
+            if (lang == "English")
+            {
+                langChangeButton.HorizontalOptions = LayoutOptions.EndAndExpand;
+            }
+            else if (lang == "Arabic")
+            {
+                langChangeButton.HorizontalOptions = LayoutOptions.StartAndExpand;
+            }
         }
     }
 }

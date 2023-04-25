@@ -4,7 +4,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
     xmlns:translator="clr-namespace:RealtimeMobile.Helper"
-    xmlns:customcontrols="clr-namespace:RealtimeMobile.CustomControls"
     xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
     x:Class="RealtimeMobile.Views.LoginRegisterPage" FlowDirection="MatchParent">
     <ContentPage.Content>
@@ -15,7 +14,7 @@
                     Aspect="AspectFill">
             </ffimageloading:CachedImage>
             <StackLayout FlowDirection="MatchParent">
-                <Button x:Name="langChangeButton"
+                <!--<Button x:Name="langChangeButton"
                         Text="{translator:Translate LanguageName}"
                         FontSize="14"
                         BorderWidth="2"
@@ -25,7 +24,23 @@
                         HorizontalOptions="EndAndExpand"
                         FontFamily="Urbanist-SemiBold"
                         Padding="20 ,0"
-                        Margin="14,30,14,0" Clicked="langChangeButton_Clicked" BackgroundColor="Transparent"/>
+                        Margin="14,30,14,0" Clicked="langChangeButton_Clicked" BackgroundColor="Transparent"/>-->
+                <Frame x:Name="langChangeButton"
+                    HasShadow="False"
+                       BackgroundColor="Transparent"
+                       BorderColor="White"
+                        CornerRadius="22"
+                        Padding="16,6"
+                        HorizontalOptions="EndAndExpand"
+                        Margin="14,30,14,0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="langChangeButton_Clicked"/>
+                    </Frame.GestureRecognizers>
+                    <Label Text="{translator:Translate LanguageName}"
+                        FontSize="12"
+                        FontFamily="Urbanist-SemiBold"
+                        TextColor="White" VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                </Frame>
                 <StackLayout VerticalOptions="EndAndExpand" Margin="20,0">
                     <Label Text="{translator:Translate Welcome}"
                            TextColor="White"

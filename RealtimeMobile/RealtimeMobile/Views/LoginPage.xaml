@@ -6,7 +6,7 @@
     xmlns:xct="http://xamarin.com/schemas/2020/toolkit" xmlns:customcontrols="clr-namespace:RealtimeMobile.CustomControls" xmlns:local="clr-namespace:RealtimeMobile.Views"
     x:Class="RealtimeMobile.Views.LoginPage" >
     <ContentPage.Content>
-        <StackLayout FlowDirection="MatchParent" Padding="20,20,20,0" >
+        <StackLayout FlowDirection="MatchParent" Padding="20,15,20,0" >
             <StackLayout.Background>
                 <LinearGradientBrush EndPoint="1,0">
                     <GradientStop Color="#1488CC"
@@ -16,27 +16,31 @@
                 </LinearGradientBrush>
             </StackLayout.Background>
 
-            <StackLayout Padding="0,20" Orientation="Horizontal" Spacing="15"  >
+            <StackLayout Padding="0,20" Orientation="Horizontal" Spacing="15">
                 <ImageButton Source="LeftArrowWhite.png"
                              WidthRequest="30"
+                             HeightRequest="30"
                              VerticalOptions="Center"
                              BackgroundColor="Transparent"
                              Clicked="ImageButton_Clicked" x:Name="backbtn"/>
-                <Button x:Name="langChangeButton"
-                        Text="{translator:Translate LanguageName}"
+                <Frame HasShadow="False"
+                       BackgroundColor="Transparent"
+                       BorderColor="White"
+                        CornerRadius="22"
+                        Padding="20,0"
+                        HorizontalOptions="EndAndExpand">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="langChangeButton_Clicked"/>
+                    </Frame.GestureRecognizers>
+                    <Label Text="{translator:Translate LanguageName}"
                         FontSize="12"
                         FontFamily="Urbanist-SemiBold"
-                        BorderWidth="2"
-                        CornerRadius="22"
-                        BorderColor="White"
-                        TextColor="White"
-                        HorizontalOptions="EndAndExpand"
-                        Padding="25,0"
-                        BackgroundColor="Transparent" Clicked="langChangeButton_Clicked"/>
+                        TextColor="White" VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                </Frame>
             </StackLayout>
 
-            <ScrollView Padding="0,0,0,20">
-                <StackLayout Spacing="20">
+            <ScrollView Padding="0,0,0,20" VerticalScrollBarVisibility="Never">
+                <StackLayout Spacing="20" >
                     <Label Text="{translator:Translate LTYA}"
                    FontSize="40"
                    FontFamily="Urbanist-Bold"
@@ -50,13 +54,12 @@
                     <Frame HasShadow="False"
                     BackgroundColor="{StaticResource entryBackground}"
                     CornerRadius="12"
-                    Padding="0" Margin="0,10,0,0"
                     xct:ShadowEffect.Color="Black"
                     xct:ShadowEffect.OffsetY="4"
                     xct:ShadowEffect.OffsetX="0"
                     xct:ShadowEffect.Opacity="0.25"
-                    xct:ShadowEffect.Radius="2">
-                        <StackLayout HeightRequest="50" Orientation="Horizontal" Padding="0,0,15,0" Spacing="10" IsClippedToBounds="True">
+                    xct:ShadowEffect.Radius="2" Padding="0" HeightRequest="60">
+                        <StackLayout Orientation="Horizontal" >
                             <StackLayout Orientation="Horizontal" Spacing="10" Padding="15,0,0,0">
                                 <StackLayout.GestureRecognizers>
                                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
@@ -64,26 +67,29 @@
                                 <Image x:Name="countryFlagImage" Source="Bahrain.png" HeightRequest="16"/>
                                 <Image Source="downarrow.png" HeightRequest="16"/>
                             </StackLayout>
-                            <customcontrols:CustomEntry Text="+9730000000" TextColor="Black" FontSize="14" HorizontalOptions="FillAndExpand"/>
+                            <customcontrols:CustomEntry x:Name="mobileNumberEntry" Text="+9730000000"
+                                                        TextColor="Black"
+                                                        FontSize="14"
+                                                        HorizontalOptions="FillAndExpand" />
                         </StackLayout>
                     </Frame>
 
                     <Frame HasShadow="False"
                     BackgroundColor="WhiteSmoke"
-                    CornerRadius="10"
-                    Padding="0"
+                    CornerRadius="12"
                     xct:ShadowEffect.Color="Black"
                     xct:ShadowEffect.OffsetY="4"
                     xct:ShadowEffect.OffsetX="0"
                     xct:ShadowEffect.Opacity="0.25"
-                    xct:ShadowEffect.Radius="2">
-                        <StackLayout HeightRequest="50" Orientation="Horizontal" Padding="15,0" Spacing="10">
-                            <Image Source="lock.png" HeightRequest="16"/>
+                    xct:ShadowEffect.Radius="2" Padding="0" HeightRequest="60">
+                        <StackLayout  Orientation="Horizontal" Padding="15,0">
+                            <Image Source="lock.png" HeightRequest="16" />
                             <customcontrols:CustomEntry Placeholder="Password"
                                                 FontSize="14"
-                                                HorizontalOptions="FillAndExpand"
+                                                HorizontalOptions="StartAndExpand"
                                                 IsPassword="{Binding Source={x:Reference ShowPasswordActualTrigger}, Path=HidePassword}"/>
-                            <ImageButton Source="eye.png" HeightRequest="16" >
+                            <ImageButton Source="eye.png" HeightRequest="20"
+                                         WidthRequest="20" BackgroundColor="Transparent">
                                 <ImageButton.Triggers>
                                     <EventTrigger Event="Clicked">
                                         <local:ShowPasswordTriggerAction ShowIcon="eye"
@@ -119,7 +125,6 @@
                         xct:ShadowEffect.OffsetX="0"
                         xct:ShadowEffect.Opacity="0.25"
                         xct:ShadowEffect.Radius="2"/>
-
                     </StackLayout>
 
                     <Button Text="{translator:Translate SignIn}"
@@ -195,14 +200,14 @@
                          WidthRequest="32"/>
                     </StackLayout>
 
-                    <ImageButton Source="FingerPrint"
+                    <StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="FingerPrintTapGestureRecognizer"/>
+                        </StackLayout.GestureRecognizers>
+                    <Image Source="FingerPrint"
                          HeightRequest="71"
-                         WidthRequest="72" 
-                        xct:ShadowEffect.Color="Black"
-                        xct:ShadowEffect.OffsetY="4"
-                        xct:ShadowEffect.OffsetX="0"
-                        xct:ShadowEffect.Opacity="0.25"
-                        xct:ShadowEffect.Radius="2"/>
+                         WidthRequest="72"/>
+                    </StackLayout>
                 </StackLayout>
             </ScrollView>
         </StackLayout>

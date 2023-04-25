@@ -24,8 +24,8 @@
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer Tapped="EnglishTapGestureRecognizer_Tapped"/>
                     </StackLayout.GestureRecognizers>
-                    <RadioButton x:Name="englishRadioButton"  BorderWidth="2" />
-                    <Label Text="{translator:Translate LanguageName}"
+                    <RadioButton x:Name="englishRadioButton"  BorderWidth="2" /> <!--CheckedChanged="EnglishTapGestureRecognizer_Tapped"-->
+                    <Label Text="{translator:Translate SelectEnglishLanguage}"
                                    VerticalTextAlignment="Center"
                                    FontSize="Body"
                                    TextColor="Black"/>
@@ -34,8 +34,8 @@
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer Tapped="ArabicTapGestureRecognizer_Tapped"/>
                     </StackLayout.GestureRecognizers>
-                    <RadioButton x:Name="arabicRadioButton" BorderWidth="2" />
-                    <Label Text="{translator:Translate LanguageNameArabic}"
+                    <RadioButton x:Name="arabicRadioButton" BorderWidth="2" /> <!--CheckedChanged="ArabicTapGestureRecognizer_Tapped"-->
+                    <Label Text="{translator:Translate SelectArabicLanguage}"
                                    VerticalTextAlignment="Center"
                                    FontSize="Body"
                                    TextColor="Black"/>

@@ -76,6 +76,15 @@ namespace RealtimeMobile {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Create Account.
+        /// </summary>
+        internal static string createAccount {
+            get {
+                return ResourceManager.GetString("createAccount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Don’t have an account?.
         /// </summary>
         internal static string DHAA {
@@ -99,15 +108,6 @@ namespace RealtimeMobile {
         internal static string LanguageName {
             get {
                 return ResourceManager.GetString("LanguageName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to اللغة العربية.
-        /// </summary>
-        internal static string LanguageNameArabic {
-            get {
-                return ResourceManager.GetString("LanguageNameArabic", resourceCulture);
             }
         }
         
@@ -144,6 +144,24 @@ namespace RealtimeMobile {
         internal static string RememberMe {
             get {
                 return ResourceManager.GetString("RememberMe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to اللغة العربية.
+        /// </summary>
+        internal static string SelectArabicLanguage {
+            get {
+                return ResourceManager.GetString("SelectArabicLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English.
+        /// </summary>
+        internal static string SelectEnglishLanguage {
+            get {
+                return ResourceManager.GetString("SelectEnglishLanguage", resourceCulture);
             }
         }
         
